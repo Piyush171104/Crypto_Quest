@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left-section {
+            width: 50%;
+            padding: 20px;
+        }
+        .right-section {
+            width: 50%;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: yellow;
+            cursor: pointer;
+            font-size: 14px;
+            color: black;
+        }
+        .message {
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .checkbox {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-section">
+        <h1>Crypto Quest</h1>
+        <h2 class="message">Welcome!<br>Please login to your account</h2>
+        <form>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <div class="checkbox">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <div class="right-section">
+        <img src="C:\Users\piyus\OneDrive\Pictures\Screenshots\Screenshot 2024-04-19 190407.png" alt="Crypto Quest Image" style="width: 100%; height: auto;">
+    </div>
+</div>
+
+</body>
+</html>
+
+
